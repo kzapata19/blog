@@ -27,7 +27,7 @@ end
 {% endhighlight %}
 
 #### `===` and `==`
-JavaScript's `===` does a `typeof` and value comparison. The `===` in Ruby is the case subsumption operator. It's a boolean operator that determines whether the object on the right of the operator belongs to the set described by the object on the right. [This] top rated stackoverflow response explains Ruby's `===` very clearly.
+JavaScript's `===` does a `typeof` and value comparison. The `===` in Ruby is the case subsumption operator. It's a boolean operator that determines whether the object on the right of the operator belongs to the set described by the object on the right. [This] stackoverflow page explains Ruby's `===` very clearly.
 
 In JavaScript, the `==` performs a 'typeof' comparison only. Whereas with Ruby, the `==` performs a value comparison
 
@@ -35,7 +35,7 @@ In JavaScript, the `==` performs a 'typeof' comparison only. Whereas with Ruby, 
 
 One notable difference between JavSCript and Ruby is the falsy values. Unlike JavaScript, everything except `nil` (similar to JavaScript's `undefined`) and `false` are truthy values in Ruby.
 
-In JavaScript, `false` (boolean not the string `"false"`), `0`, `""`, `''`, `undefined`, `null`, and `NaN`.
+In JavaScript, `false` (boolean not the string `"false"`), `0`, `""`, `''`, `undefined`, `null`, and `NaN` are falsy values.
 
 
 [This]: https://stackoverflow.com/questions/4467538/what-does-the-operator-do-in-ruby
