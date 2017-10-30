@@ -11,6 +11,27 @@ As I worked through the Ruby Koans this week, some of the surface level differen
 To find the value type of an object in JavaScript, `typeof <targetObject>`
 With Ruby, this can be achieved by appending `.class` to the target_object
 
+#### Naming Conventions
+
+##### Ruby: identifier that starts with
+- a capital letter is a constant, usually with all uppercase letters (NOTE: method names may start with a capital letter too!). Class and module names are constants and by convention use upper camel case. Constants should not be defined inside a method, normally in a class or module.
+- `$` is a global variable
+- `@` is an instance variable (declared within an object, always belongs to whatever object `self` references)
+- `@@` is a class variable (declared inside a class, it's shared among all objects within that class)
+NOTE:
+- variables do not need to be declared, the name itself will denote the scope (local, global, instance, etc.)
+- local variable (declared inside an object) is made up of a lowercase letter or underscore followed by any combination of upper/lowercase letter, underscores, and numbers
+- method names are also allowed to include `?`, `!`, `=` as name suffixes
+
+
+##### JavaScript:
+- variable declarations should always start with `var` to avoid declaring them as global variables (avoids conflicts from using a variable name across different fuxs and other global variable declared by 3rd party code)
+- constructor fx startig with `new` should start with a capital letter (ex: ` var new_person = new Person())
+- methods/fxs should always start with a lowercase letter
+- follow camel case convention for methods/fx and upper camel case for constructors
+- variables with multiple words should use underscore between words
+- use leading underscore to visually separate private from public methods (NOTE: this convention does not create a private method)
+
 #### Functions and Methods
 Functions in JavaScript are the same as Ruby's methods. The syntax, however, is different:
 
