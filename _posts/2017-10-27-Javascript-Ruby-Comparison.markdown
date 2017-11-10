@@ -13,7 +13,8 @@ With Ruby, this can be achieved by appending `.class` to the target_object
 
 #### Naming Conventions
 
-##### Ruby: identifier that starts with
+Ruby: identifier that starts with
+
 - a capital letter is a constant, usually with all uppercase letters (NOTE: method names may start with a capital letter too!). Class and module names are constants and by convention use upper camel case. Constants should not be defined inside a method, normally in a class or module.
 - `$` is a global variable
 - `@` is an instance variable (declared within an object, always belongs to whatever object `self` references)
@@ -24,7 +25,8 @@ NOTE:
 - method names are also allowed to include `?`, `!`, `=` as name suffixes
 
 
-##### JavaScript:
+JavaScript:
+
 - variable declarations should always start with `var` to avoid declaring them as global variables (avoids conflicts from using a variable name across different fuxs and other global variable declared by 3rd party code)
 - constructor fx startig with `new` should start with a capital letter (ex: ` var new_person = new Person())
 - methods/fxs should always start with a lowercase letter
