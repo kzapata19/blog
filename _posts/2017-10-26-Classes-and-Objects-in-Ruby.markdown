@@ -2,7 +2,7 @@
 layout: post
 title:  "Classes and Objects in Ruby"
 date:   2017-10-26 19:36:36 -0700
-categories: jekyll update
+categories: Ruby
 ---
 
 What's the difference between a `Class` and an `Object` in Ruby?

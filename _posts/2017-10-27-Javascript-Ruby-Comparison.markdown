@@ -2,7 +2,7 @@
 layout: post
 title:  "JavaScript and Ruby Comparison"
 date:   2017-10-26 19:36:36 -0700
-categories: jekyll update
+categories: Ruby
 ---
 
 As I worked through the Ruby Koans this week, some of the surface level differences I've noticed between JavaScript and Ruby include:
