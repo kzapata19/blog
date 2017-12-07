@@ -19,7 +19,7 @@ The pace of code creation should be steady at minimum but ideally over time the 
 Because software changes by definition, the application should not cost unnecessary time and money.
 
 ### Fearless competence
-Never fear refactoring. Code that does not get refactored will only get worse over tiem. Tests must be quality tests. They should not be ignored. If all tests pass, code should be deployable.
+Never fear refactoring. Code that does not get refactored will only get worse over time. Tests must be quality tests. They should not be ignored. If all tests pass, code should be deployable.
 
 ### Extreme quality
 Expect no bugs and never ship with bugs. Do not rely on QA to find bugs. QA should ideally be in the front end specifying not on the back end before deployment.
@@ -31,10 +31,10 @@ Code should not break easily. Code must be robust.
 Learn about what each team member is working on. This will ensure that support can be provided when a member is missing or away from the project. Share knowledge among the team to achieve full coverage.
 
 ### Honest estimates
-A data is not an honest estimate. Even if pressured by management to deliver by a certain date, always provide an honest estimate. Do not be afraid to say "I don't know." Instead provide the best case, nominal case, and worse case to give management an honest estimate.
+A date is not an honest estimate. Even if pressured by management to deliver by a certain date, always provide an honest estimate. Do not be afraid to say "I don't know." Instead provide the best case, nominal case, and worse case to give management a closer estimate.
 
 ### Continuous aggressive learning
-You can't be a software developer for long without continuously learning. Attend conferences and classes, read blogs, experiment with new languages/concepts in your own time. Do not expect your employer to train you. You are the caretaker of your career abotu what, when, and how you learn. Spend an estimated twenty hours outside of work to learn new skills.
+You can't be a software developer for long without continuously learning. Attend conferences and classes, read blogs, experiment with new languages/concepts in your own time. Do not expect your employer to train you. You are the caretaker of your career about what, when, and how you learn. Spend an estimated twenty hours outside of work to learn new skills.
 
 ### Mentor
 Dedicate time to teach one another.

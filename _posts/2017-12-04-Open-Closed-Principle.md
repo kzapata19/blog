@@ -9,12 +9,12 @@ categories: Uncle Bob, SOLID, software, OO, design
 
 The "O" in Uncle Bob's SOLID principles. The concept seems really easy to understand but it's a bit more challenging to implement when writing code.
 
-We can achieve this goal by aiming to create modular code that will make it possible for us to change the behavior o the app without making changes to the classes themselves. Some of the *code smells* include `if else` statements and lengthy `switch` cases. One way to solve this issue is to use the *strategy pattern*. According to [Wikipedia](https://en.wikipedia.org/wiki/Strategy_pattern)
+We can achieve this goal by aiming to create modular code that will make it possible for us to change the behavior of the app without making changes to the classes themselves. Some of the *code smells* include `if else` statements and lengthy `switch` cases. One way to solve this issue is to use the *strategy pattern*. According to [Wikipedia](https://en.wikipedia.org/wiki/Strategy_pattern)
 
 > The strategy pattern is a behavior software design pattern that enables selecting an algorithm at runtime. The strategy pattern:
-> * defines a family of algorithms
-> * encapsulates each algorithm, and
-> * makes the algorithms interchangeable within that family
+> - defines a family of algorithms
+> - encapsulates each algorithm, and
+> - makes the algorithms interchangeable within that family
 
 Let's take a look at an example. We start off with the following classes that violate OCP.
 
